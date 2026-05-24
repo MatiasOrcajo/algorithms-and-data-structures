@@ -6,7 +6,6 @@ class QueryManager
 {
     public function insert(PDO $dbh, string $table, int $q): void
     {
-        $itemsNames = ["REMERA", "PANTALON", "CAMISA", "ZAPATOS", "CORBATA", "SACO"];
         $randomNames = [
             "products" => ["REMERA", "PANTALON", "CAMISA", "ZAPATOS", "CORBATA", "SACO"],
             "categories" => ["ZAPATOS", "PANTALONES", "TREN SUPERIOR"]
